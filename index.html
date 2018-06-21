@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alrisk</title>
+	<meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <link href="css/bootstrap.css" rel="stylesheet" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="css/font-awesome.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+      <link type="text/css" href="css/clndr.css" rel="stylesheet" />
+      <link type="text/css" href="css/style.css" rel="stylesheet" /> 
+</head>
+<body>
+      <div class="wrapper-ogrenci">
+          <div class="wrapper" id="homeimg">
+              <!--start menu-->
+              <nav id="nurnav" class="navbar navbar-default">
+                 <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                       <button type="button" class="navbar-toggle collapsebtn collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="background-color:rgba(0, 0, 0, 0.67)">
+                          <span class="sr-only" >Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                    </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+              <ul class="nav navbar-nav navhide">                   
+                  <li><a href="#" class="menu-item" target="#homeimg">ANASAYFA</a></li>
+                  <li><a href="#" class="menu-item" target="#takvim">EĞİTİM TAKVİMİ</a></li>
+                  <li><a href="#" class="menu-item" target="#shared-text">PAYLAŞILAN METİNLER</a></li>
+                  <li><a href="#" class="menu-item" target="#aldigim-dersler">ALDIĞIM DERSLER</a></li>
+                  <li><img src="img/loginlogo.png"/></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+           <div class="grey-head"></div>
+        </nav>
+              <!--the end of menu-->
+              <div class="head-picture">
+                  <img src="img/cover.png"/>
+              </div>
+              <!--the start of content-->
+              <div class="content-wrapper">
+                   <div class="content-mezmun">
+                        <!--the start of calendar left-part-->
+                          <div class="left-part" style="width:400px;height: 800px;">
+                              <div class="my-calendar">
+                                  <h5 id="takvim">EĞİTİM TAKVİMİ</h5>
+                                  <div style="width:300px; height: 270px; background-color: white;  box-shadow: 1px 1px 9px #c5c5c5; z-index:2;">
+                                      <!-- calendar -->
+
+                                           <div class="mini-cal">
+			<div class="calender">
+					<div class="column_right_grid calender">
+                      <div class="cal1"><div class="clndr"><div class="clndr-controls"><div class="clndr-control-button"><p class="clndr-previous-button">previous</p></div><div class="month">September 2015</div><div class="clndr-control-button rightalign"><p class="clndr-next-button">next</p></div></div><table class="clndr-table" border="0" cellspacing="0" cellpadding="0"><thead><tr class="header-days"><td class="header-day">P</td><td class="header-day">S</td><td class="header-day">Ç</td><td class="header-day">P</td><td class="header-day">C</td><td class="header-day">Cum</td><td class="header-day">Paz</td></tr></thead><tbody><tr><td class="day past adjacent-month last-month calendar-day-2015-08-30"><div class="day-contents">30</div></td><td class="day past adjacent-month last-month calendar-day-2015-08-31"><div class="day-contents">31</div></td><td class="day past calendar-day-2015-09-01"><div class="day-contents">1</div></td><td class="day past calendar-day-2015-09-02"><div class="day-contents">2</div></td><td class="day past calendar-day-2015-09-03"><div class="day-contents">3</div></td><td class="day past calendar-day-2015-09-04"><div class="day-contents">4</div></td><td class="day past calendar-day-2015-09-05"><div class="day-contents">5</div></td></tr><tr><td class="day past calendar-day-2015-09-06"><div class="day-contents">6</div></td><td class="day past calendar-day-2015-09-07"><div class="day-contents">7</div></td><td class="day past calendar-day-2015-09-08"><div class="day-contents">8</div></td><td class="day past calendar-day-2015-09-09"><div class="day-contents">9</div></td><td class="day past event calendar-day-2015-09-10"><div class="day-contents">10</div></td><td class="day past event calendar-day-2015-09-11"><div class="day-contents">11</div></td><td class="day past event calendar-day-2015-09-12"><div class="day-contents">12</div></td></tr><tr><td class="day past event calendar-day-2015-09-13"><div class="day-contents">13</div></td><td class="day past event calendar-day-2015-09-14"><div class="day-contents">14</div></td><td class="day past calendar-day-2015-09-15"><div class="day-contents">15</div></td><td class="day past calendar-day-2015-09-16"><div class="day-contents">16</div></td><td class="day past calendar-day-2015-09-17"><div class="day-contents">17</div></td><td class="day past calendar-day-2015-09-18"><div class="day-contents">18</div></td><td class="day past calendar-day-2015-09-19"><div class="day-contents">19</div></td></tr><tr><td class="day past calendar-day-2015-09-20"><div class="day-contents">20</div></td><td class="day past event calendar-day-2015-09-21"><div class="day-contents">21</div></td><td class="day past event calendar-day-2015-09-22"><div class="day-contents">22</div></td><td class="day past event calendar-day-2015-09-23"><div class="day-contents">23</div></td><td class="day past calendar-day-2015-09-24"><div class="day-contents">24</div></td><td class="day past calendar-day-2015-09-25"><div class="day-contents">25</div></td><td class="day today calendar-day-2015-09-26"><div class="day-contents">26</div></td></tr><tr><td class="day calendar-day-2015-09-27"><div class="day-contents">27</div></td><td class="day calendar-day-2015-09-28"><div class="day-contents">28</div></td><td class="day calendar-day-2015-09-29"><div class="day-contents">29</div></td><td class="day calendar-day-2015-09-30"><div class="day-contents">30</div></td><td class="day adjacent-month next-month calendar-day-2015-10-01"><div class="day-contents">1</div></td><td class="day adjacent-month next-month calendar-day-2015-10-02"><div class="day-contents">2</div></td><td class="day adjacent-month next-month calendar-day-2015-10-03"><div class="day-contents">3</div></td></tr></tbody></table></div></div>
+				    </div>
+					<div class="cal-pos a">
+						<ul>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+					<div class="cal-pos">
+						<ul>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+			</div>
+            <div class="clear"></div>
+		</div>
+<div class="clear"></div>
+                                      <!-- // calendar -->
+                                  </div>
+                              </div>
+                              <div class="history">
+
+<ul id='timeline'>
+      <li class='work'>
+      <input class='radio' id='work5' name='works' type='radio' checked>
+      <div class="relative">
+       <span class='circle'></span>
+     </div>
+      <div class="history-content">
+        <div class="history-date">
+            <div class="date-span">
+                <div>11</div> 
+                <div>14</div>
+            </div>
+            <div class="earth">
+                <p>History of the Earth Assignment</p>
+                <span>09h30'</span>
+            </div>
+        </div>
+    </div>
+  </li>
+      <li class='work'>
+    <input class='radio' id='work5' name='works' type='radio' checked>
+    <div class="relative">
+      <span class='circle'></span>
+    </div>
+      <div class="history-content">
+        <div class="history-date">
+            <div class="date-span">
+                <div>11</div> 
+                <div>14</div>
+            </div>
+            <div class="earth">
+                <p>History of the Earth Assignment</p>
+                <span>09h30'</span>
+            </div>
+        </div>
+    </div>
+  </li>
+      <li class='work'>
+    <input class='radio' id='work5' name='works' type='radio' checked>
+    <div class="relative">
+      <span class='circle'></span>
+    </div>
+      <div class="history-content">
+        <div class="history-date">
+            <div class="date-span">
+                <div>11</div> 
+                <div>14</div>
+            </div>
+            <div class="earth">
+                <p>History of the Earth Assignment</p>
+                <span>09h30'</span>
+            </div>
+        </div>
+    </div>
+  </li>
+    <!---->
+    <li class='work'>
+    <input class='radio' id='work5' name='works' type='radio' checked>
+    <div class="relative">
+      <span class='circle'></span>
+    </div>
+      <div class="history-content">
+        <div class="history-date">
+            <div class="date-span">
+                <div>11</div> 
+                <div>14</div>
+            </div>
+            <div class="earth">
+                <p>History of the Earth Assignment</p>
+                <span>09h30'</span>
+            </div>
+        </div>
+    </div>
+  </li>
+  <li class='work'>
+    <input class='radio' id='work5' name='works' type='radio' checked>
+    <div class="relative">
+      <span class='circle'></span>
+    </div>
+      <div class="history-content">
+        <div class="history-date">
+            <div class="date-span">
+                <div>11</div> 
+                <div>14</div>
+            </div>
+            <div class="earth">
+                <p>History of the Earth Assignment</p>
+                <span>09h30'</span>
+            </div>
+        </div>
+    </div>
+  </li>
+  <li class='work'>
+    <input class='radio' id='work5' name='works' type='radio' checked>
+    <div class="relative">
+      <span class='circle'></span>
+    </div>
+      <div class="history-content">
+        <div class="history-date">
+            <div class="date-span">
+                <div>11</div> 
+                <div>14</div>
+            </div>
+            <div class="earth">
+                <p>History of the Earth Assignment</p>
+                <span>09h30'</span>
+            </div>
+        </div>
+    </div>
+  </li>
+  <li class='work'>
+    <input class='radio' id='work5' name='works' type='radio' checked>
+    <div class="relative">
+      <span class='circle'></span>
+    </div>
+      <div class="history-content">
+        <div class="history-date">
+            <div class="date-span">
+                <div>11</div> 
+                <div>14</div>
+            </div>
+            <div class="earth">
+                <p>History of the Earth Assignment</p>
+                <span>09h30'</span>
+            </div>
+        </div>
+    </div>
+  </li>
+  <li class='work'>
+    <input class='radio' id='work5' name='works' type='radio' checked>
+    <div class="relative">
+      <span class='circle'></span>
+    </div>
+      <div class="history-content">
+        <div class="history-date">
+            <div class="date-span">
+                <div>11</div> 
+                <div>14</div>
+            </div>
+            <div class="earth">
+                <p>History of the Earth Assignment</p>
+                <span>09h30'</span>
+            </div>
+        </div>
+    </div>
+  </li>
+</ul>              
+     </div>
+      </div>
+           <!--the end of calendar left-part-->
+           <!--the start of right-part-->
+
+
+
+
+
+
+               <div class="right-part" style=" width:740px;height: 800px; margin-top:34px;">
+                   <div class="profil">
+                      <div class="student">
+                           <div class="student-profil">
+                                <div class="profil-img"><img src="img/prof.png"/></div>
+                                   <div id="name-surname">AHMET ASLAN</div>
+                                       <div id="icn"><span class="glyphicon glyphicon-map-marker"></span><span id="country">Türkiye</span></div>
+                                          <input type="button" value="Öğrenci" name="button-name"/>
+                                </div>
+                                <div class="pay-registration">
+                                    <div class="pay"><a class="custom-collapse" href="#" data-target="#pay"><img src="img/cash.png"/></a><span>Ödeme yapılan miktar</span></div>
+                                       <div id="pay" class="collapse">
+                                          Lorem ipsum dolor text....
+                                       </div>
+                                     <div class="pay"><a class="custom-collapse" href="#" data-target="#date"><img src="img/pay.png" style="padding-top:3px;"/></a><span>Kayıt Tarihi</span></div>
+                                        <div id="date" class="collapse">
+                                            Lorem ipsum dolor text....
+                                        </div>
+                                </div>
+                                </div>
+                                <div class="lesson">
+                                      <p id="start-lesson">DERSIN BAŞLAMASINA</p>
+                                      <p id="remain-hour">9</p>
+                                      <p id="hour">SAAT KALDI!</p>
+                                </div>
+                              </div>
+                              <div class="belge-video">
+                                  <div class="belge-video-head" id="shared-text">
+                                     <div id="paylas">
+                                         <div id="paylas-head">Paylaşılan Belge ve Videolar</div>
+                                         <div id="paylas-content">Bu kısım tüm öğrencilerimiz için ortak hazırlanmıştır </div>
+                                     </div>
+                                     <div id="ogretmen-ogrenci">
+                                        <div id="ogretmen"></div>
+                                        <div class="teach-student">Öğretmen</div>
+                                        <div id="ogrenci"></div>
+                                        <div class="teach-student"> Öğrenci</div>
+                                     </div>
+                                  </div>
+                                  <!--looked-->
+                                  <div class="looked-wrapper">
+                                       <div class="belge-video-head temel-pdf">
+                                        <div class="temel-eye">
+                                            <div>0</div>
+                                            <div class="glyphicon glyphicon-eye-open eye"></div>
+                                        </div>
+                                        <div class="temel-text">
+                                            <div class="text-one">Aktif Saldırı Teknikleri Temel Anlatım PDF</div>
+                                            <div class="text-two">Bu belge öğrenciler için Oğuz ALBAŞ tarafından yazılmıştır.</div>
+                                        </div>
+                                    </div>
+                                     <div class="belge-video-head temel-pdf">
+                                        <div class="temel-eye">
+                                            <div>0</div>
+                                            <div class="glyphicon glyphicon-eye-open eye"></div>
+                                        </div>
+                                        <div class="temel-text">
+                                            <div class="text-one">Aktif Saldırı Teknikleri Temel Anlatım PDF</div>
+                                            <div class="text-two">Bu belge öğrenciler için Oğuz ALBAŞ tarafından yazılmıştır.</div>
+                                        </div>
+                                    </div>
+                                     <div class="belge-video-head temel-pdf">
+                                        <div class="temel-eye">
+                                            <div>0</div>
+                                            <div class="glyphicon glyphicon-eye-open eye"></div>
+                                        </div>
+                                        <div class="temel-text">
+                                            <div class="text-one">Aktif Saldırı Teknikleri Temel Anlatım PDF</div>
+                                            <div class="text-two">Bu belge öğrenciler için Oğuz ALBAŞ tarafından yazılmıştır.</div>
+                                        </div>
+                                    </div>
+                                     <div class="belge-video-head temel-pdf">
+                                        <div class="temel-eye">
+                                            <div>0</div>
+                                            <div class="glyphicon glyphicon-eye-open eye"></div>
+                                        </div>
+                                        <div class="temel-text">
+                                            <div class="text-one">Aktif Saldırı Teknikleri Temel Anlatım PDF</div>
+                                            <div class="text-two">Bu belge öğrenciler için Oğuz ALBAŞ tarafından yazılmıştır.</div>
+                                        </div>
+                                    </div>
+                                    <!---->
+                                     <div class="belge-video-head temel-pdf">
+                                        <div class="temel-eye">
+                                            <div>0</div>
+                                            <div class="glyphicon glyphicon-eye-open eye"></div>
+                                        </div>
+                                        <div class="temel-text">
+                                            <div class="text-one">Aktif Saldırı Teknikleri Temel Anlatım PDF</div>
+                                            <div class="text-two">Bu belge öğrenciler için Oğuz ALBAŞ tarafından yazılmıştır.</div>
+                                        </div>
+                                    </div>
+                                     <div class="belge-video-head temel-pdf">
+                                        <div class="temel-eye">
+                                            <div>0</div>
+                                            <div class="glyphicon glyphicon-eye-open eye"></div>
+                                        </div>
+                                        <div class="temel-text">
+                                            <div class="text-one">Aktif Saldırı Teknikleri Temel Anlatım PDF</div>
+                                            <div class="text-two">Bu belge öğrenciler için Oğuz ALBAŞ tarafından yazılmıştır.</div>
+                                        </div>
+                                    </div>  <div class="belge-video-head temel-pdf">
+                                        <div class="temel-eye">
+                                            <div>0</div>
+                                            <div class="glyphicon glyphicon-eye-open eye"></div>
+                                        </div>
+                                        <div class="temel-text">
+                                            <div class="text-one">Aktif Saldırı Teknikleri Temel Anlatım PDF</div>
+                                            <div class="text-two">Bu belge öğrenciler için Oğuz ALBAŞ tarafından yazılmıştır.</div>
+                                        </div>
+                                    </div>
+                                      <div class="belge-video-head temel-pdf">
+                                        <div class="temel-eye">
+                                            <div>0</div>
+                                            <div class="glyphicon glyphicon-eye-open eye"></div>
+                                        </div>
+                                        <div class="temel-text">
+                                            <div class="text-one">Aktif Saldırı Teknikleri Temel Anlatım PDF</div>
+                                            <div class="text-two">Bu belge öğrenciler için Oğuz ALBAŞ tarafından yazılmıştır.</div>
+                                        </div>
+                                    </div>
+                                      <div class="belge-video-head temel-pdf">
+                                        <div class="temel-eye">
+                                            <div>0</div>
+                                            <div class="glyphicon glyphicon-eye-open eye"></div>
+                                        </div>
+                                        <div class="temel-text">
+                                            <div class="text-one">Aktif Saldırı Teknikleri Temel Anlatım PDF</div>
+                                            <div class="text-two">Bu belge öğrenciler için Oğuz ALBAŞ tarafından yazılmıştır.</div>
+                                        </div>
+                                    </div>
+                                      <div class="belge-video-head temel-pdf">
+                                        <div class="temel-eye">
+                                            <div>0</div>
+                                            <div class="glyphicon glyphicon-eye-open eye"></div>
+                                        </div>
+                                        <div class="temel-text">
+                                            <div class="text-one">Aktif Saldırı Teknikleri Temel Anlatım PDF</div>
+                                            <div class="text-two">Bu belge öğrenciler için Oğuz ALBAŞ tarafından yazılmıştır.</div>
+                                        </div>
+                                    </div>
+
+                                     <div class="belge-video-head temel-pdf">
+                                        <div class="temel-eye">
+                                            <div>0</div>
+                                            <div class="glyphicon glyphicon-eye-open eye"></div>
+                                        </div>
+                                        <div class="temel-text">
+                                            <div class="text-one">Aktif Saldırı Teknikleri Temel Anlatım PDF</div>
+                                            <div class="text-two">Bu belge öğrenciler için Oğuz ALBAŞ tarafından yazılmıştır.</div>
+                                        </div>
+                                    </div>
+                                    <!---->
+                                     <div class="belge-video-head temel-pdf">
+                                        <div class="temel-eye">
+                                            <div>0</div>
+                                            <div class="glyphicon glyphicon-eye-open eye"></div>
+                                        </div>
+                                        <div class="temel-text">
+                                            <div class="text-one">Aktif Saldırı Teknikleri Temel Anlatım PDF</div>
+                                            <div class="text-two">Bu belge öğrenciler için Oğuz ALBAŞ tarafından yazılmıştır.</div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <!--end looked-->
+                              </div>
+                          </div>
+                        <!--the end of right part-->
+                   </div>
+              </div>
+              <!--the end of content-->
+              <!-- the start of temel-egitim-->
+              <div class="study-wrapper" id="aldigim-dersler">
+                   <div class="basic-study">
+                      <div class="basic-title"> 
+                        <h5 id="title-temel">Aldığım EĞİTİMLER</h5>
+                        <span>Bu kısımda aldığınız eğitimlerin listesi bulunmaktadır.</span>
+                     </div>
+                     <div class="teacher-scroll">
+                         <div class="teacher"> 
+                             <span>Temel Saldırı Senaryosu</span>
+                             <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                         <div class="teacher">  
+                              <span>Temel Saldırı Senaryosu</span>
+                              <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                         <div class="teacher"> 
+                              <span>Temel Saldırı Senaryosu</span>
+                              <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                         <div class="teacher" style="border:0;">  
+                              <span>Temel Saldırı Senaryosu</span>
+                              <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                         <!---->
+                          <div class="teacher"> 
+                             <span>Temel Saldırı Senaryosu</span>
+                             <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                         <div class="teacher">  
+                              <span>Temel Saldırı Senaryosu</span>
+                              <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                          <div class="teacher"> 
+                             <span>Temel Saldırı Senaryosu</span>
+                             <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                         <div class="teacher">  
+                              <span>Temel Saldırı Senaryosu</span>
+                              <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                          <div class="teacher"> 
+                             <span>Temel Saldırı Senaryosu</span>
+                             <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                         <div class="teacher">  
+                              <span>Temel Saldırı Senaryosu</span>
+                              <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                          <div class="teacher"> 
+                             <span>Temel Saldırı Senaryosu</span>
+                             <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                         <div class="teacher">  
+                              <span>Temel Saldırı Senaryosu</span>
+                              <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                          <div class="teacher"> 
+                             <span>Temel Saldırı Senaryosu</span>
+                             <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                         <div class="teacher">  
+                              <span>Temel Saldırı Senaryosu</span>
+                              <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                          <div class="teacher"> 
+                             <span>Temel Saldırı Senaryosu</span>
+                             <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                         <div class="teacher">  
+                              <span>Temel Saldırı Senaryosu</span>
+                              <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                          <div class="teacher"> 
+                             <span>Temel Saldırı Senaryosu</span>
+                             <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                         <div class="teacher">  
+                              <span>Temel Saldırı Senaryosu</span>
+                              <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                          <div class="teacher"> 
+                             <span>Temel Saldırı Senaryosu</span>
+                             <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                         <div class="teacher">  
+                              <span>Temel Saldırı Senaryosu</span>
+                              <p>Öğretmen:Oğuz ALBAŞ</p>
+                         </div>
+                         <!---->
+                     </div>
+                  </div>
+              </div>
+              <!-- the enf of temel egitim-->
+              <!-- the start of footer -->
+              <div class="footer">TÜM HAKLARI SAKLIDIR ALRİSK #</div>
+              <!-- the end of footer-->
+              
+          </div>
+      </div>
+      <script type="text/javascript" src="js/jqueryalrisk.js"></script>
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script src="js/jquery-3.1.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+      <script src="js/calendar/underscore-min.js"></script>
+	  <script src= "js/calendar/moment-2.2.1.js"></script>
+	  <script src="js/calendar/clndr.js"></script>
+	  <script src="js/calendar/site.js"></script>
+	<!--End Calender-->
+<script src="js/calendar/jquery.rotate.js"></script>
+</body>
+</html>
